@@ -74,6 +74,7 @@
     "karma-firefox-launcher": "2.1.2",
     "karma-mocha": "2.0.1",
     "karma-mocha-reporter": "2.2.5",
+    "karma-webdriver-launcher": "1.0.8",
     "karma-webpack": "5.0.0",
     "math-expression-evaluator": "1.4.0",
     "mkdirp": "1.0.4",

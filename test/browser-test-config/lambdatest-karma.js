@@ -17,8 +17,8 @@ module.exports = function(config) {
       port: 9876,
       basePath: '../..',
       frameworks: ['mocha'],
-      
- 
+
+
       client: {
         mocha: {
           timeout: mochaConfig.timeout
@@ -27,22 +27,22 @@ module.exports = function(config) {
       files: [
         'test/browser-test-config/browser-tests.test.js'
       ],
-  
+
       plugins: [
-     
+
          'karma-webpack',
          'karma-mocha',
-       
+
          'karma-webdriver-launcher',
-      
+
       ],
-  
+
       captureTimeout: 600000,
       retryLimit: 1,
       browserDisconnectTimeout: 90000,
       browserDisconnectTolerance: 1,
       browserNoActivityTimeout: 90000,
-  
+
       concurrency: 1,
       logLevel: config.LOG_DEBUG,
       browsers: ['Windows_Chrome'],
@@ -53,7 +53,7 @@ module.exports = function(config) {
               browserName: 'chrome',
               version: 'latest',
               build: 'OSS',
-              name: 'Jos MathJs',
+              name: 'mathjs',
               video: true, // capture video for your test
               visual: true, // capture screenshots on each step
               network: true, // capture network logs for your test
